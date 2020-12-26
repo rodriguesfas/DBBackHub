@@ -2,6 +2,20 @@
 
 A simple script python to perform database backup for github.
 
+# Clone Project
+
+    git clone
+
+# Environment Variables
+
+Create file ```.env``` and copy and past code block, and config your variables.
+
+    DB_HOST = 'localhost'
+    DB_USER = 'root'
+    DB_USER_PASSWORD = 'password'
+    DB_NAME = 'database_name'
+    BACKUP_PATH = 'path_dir'
+
 # Single Database Backup
 
     DB_NAME = 'mydb'
@@ -29,7 +43,7 @@ You can change below variable to change the location of backup path.
 
 After downloading script make the script executable using following command.
 
-    chmod +x dbbackhub.py
+    sudo chmod +x dbbackhub.py
 
 and execute this script like below
 
